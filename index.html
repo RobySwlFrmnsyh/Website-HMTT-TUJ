@@ -1,484 +1,624 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Website HMTT</title>
+        
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        
 
-        <!-- Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
-
-        <!-- feathericons -->
-        <script src="https://unpkg.com/feather-icons"></script>
-
-        <!-- my style -->
-        <link rel="stylesheet" href="style.css">
-
+        <link rel="stylesheet" href="style.css" />
     </head>
-
     <body>
-        <!--Navbar star-->
-        <nav class="navbar">
-            <a href="#" class="navbar-logo">
-                <img src="" alt="Logo" class="logo-img">
-                HMTT<span>-TUJ</span>
-            </a>
-            <div class="navbar-nav">
-                <a href="#">Home</a>
-                <a href="#about">Tentang Kami</a>
-                <a href="#menu">Menu</a>
-                <a href="#contact">Kontak</a>
+    <!-- navigasi -->
+        <nav
+            class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+        >
+            <div class="container">
+                <button style="background: white; border-radius: 40%; padding: 5px; margin-right: 10px; border: none; display: flex; align-items: center; justify-content: center; width: 35px; height: 35px;">
+                    <img src="img/logo.png" 
+                        width="30"
+                        alt="Logo">
+                </button>
+                <a class="navbar-brand" href="#">HMTT-TUJ</a>
+                
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-right" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tentang">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#visimisi">Visi & Misi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#parlemen">Parlemen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pengurus">BPH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kontak">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="navbar-extra">
-                <a href="#" id="search"><i data-feather="search"></i></a>
-                <a href="#" id="menu"><i data-feather="menu"></i></a>
-            </div>           
         </nav>
-        <!--Navbar end-->
-
-        <!--Hero selection start-->
-        <section class="hero" id="home">
-            <main class="content">
-                <h1>Bersama Telco Meraih Tujuan</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <a href="#" class="cta">Beli sekarang</a>
-            </main>
-        </section>
-        <!--Hero selection end-->
-
-        <!--about section star-->
-        <section id="about" class="about">
-            <h2><span>Tentang</span> Kami</h2>
-
-            <div class="row">
-                <div class="about-img">
-                    <img src="img/Divisi Non Akademik.jpg" alt="about img">
-                </div>
-                <div class="content">
-                    <h3>Kenapa Memilih ikut organisasi ?</h3>
-                    <p>karena dapat menambah pengalaman serta relasi</p>
+        <!-- banner -->
+        <div class="container-fluid banner">
+            <div class="container text-center">
+                <h4 class="display-6"></h4>
+                <h3 class="display-1"></h3>
+                <a href="#layanan">
+                </a>
+            </div>
+        </div>
+        <!-- tentang Himpunan -->
+        <div class="container-fluid pt-5 pb-5">
+            <div class="container">
+                <h2 class="display-3 text-center" id="tentang"><strong>About</strong></h2>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ex!
+                </p>
+                <div class="clearfix pt-5">
+                    <img
+                        src="img/Foto Bersama.jpg"
+                        class="col-md-6 float-md-end mb-3 crop-img"
+                        width="300"
+                        height="300"
+                    />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                        veritatis at voluptate commodi officiis sapiente.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                        veritatis at voluptate commodi officiis sapiente.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                        veritatis at voluptate commodi officiis sapiente.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Dignissimos laboriosam excepturi exercitationem qui expedita, ex
+                        temporibus natus necessitatibus accusamus voluptatibus.
+                    </p>
                 </div>
             </div>
-        </section>
-        <!--Hero section end-->
+        </div>
 
-        <!--feathericons-->
-        <script>
-            feather.replace();
-        </script>
+        <!-- Visi dan Misi -->
+        <div class="container-fluid visimisi pt-5 pb-5">
+            <div class="container text-center">
+                <h2 class="display-3" id="visimisi"><strong>Visi & Misi</strong></h2>
+                
+                <div class="row pt-4">
+                    <div class="col-md-6 text-left">
+                        <h3 class="mt-3">Visi</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, a!
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <h3 class="mt-3">Misi</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, a!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Parlemen -->
+        <div class="container-fluid pt-5 pb-5 bg-light">
+            <div class="container text-center">
+                <h2 class="display-3" id="parlemen"><strong>Parlemen</strong></h2>
+                
+                <div class="row pt-4 gx-4 gy-4">
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Departemen Medkominfo</h5>
+                                <p class="card-text">
+                                    Departemen Medkominfo merupakan garda terdepan
+                                    organisasi dalam hal penyebaran informasi dan
+                                    membangun komunikasi yang efektif. Kami ibarat
+                                    jembatan yang menghubungkan organisasi dengan publik,
+                                    internal maupun eksternal.
+                                    Departemen Medkominfo memainkan peran penting dalam
+                                    membantu organisasi mencapai tujuannya dengan
+                                    membangun komunikasi yang efektif, menyebarkan
+                                    informasi yang akurat, dan memanfaatkan teknologi
+                                    informasi secara optimal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Departemen Hubungan Masyarakat</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+                                    odit atque nam animi dolores itaque.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Departemen Keilmuan</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+                                    odit atque nam animi dolores itaque.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Departemen Pengembangan Manusia</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+                                    odit atque nam animi dolores itaque.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row pt-4 gx-4 gy-4">
+                    <h3 class="h4 text-muted mb-4 mt-5">Departemen Medkominfo</h3>
+                    <div class="col-md-4">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="200"
+                                height="200"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Media Development</h5>
+                                <p class="card-text">
+                                    Divisi yang berfungsi sebagai pengelola akun media sosial dan menjadi perantara dalam persebaran informasi di HMTT. 
+                                    Departemen Media Development juga membuat video kreatif sebagai penunjang program kerja di HMTT.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="200"
+                                height="200"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Creative Information</h5>
+                                <p class="card-text">
+                                    Divisi yang bertanggung jawab atas segala bentuk visual sebagai penunjang media informasi program kerja HMTT atau sering dikatakan sebagai content planer dan design.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="200"
+                                height="200"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Kewirausahaan</h5>
+                                <p class="card-text">
+                                    Divisi yang berfungsi untuk menyediakan dana yang akan dibutuhkan selama kepengurusan HMTT berlangsung dengan melakukan berbagai inovasi dalam berwirausaha yang akan mendukung pemasukan kas HMTT yang akan digunakan sebagai anggaran rumah tangga himpunan salah satunya seperti membuat identitas himpunan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row pt-4 gx-4 gy-4">
+                    <h3 class="h4 text-muted mb-4 mt-5">Departemen Hubungan Masyarakat</h3>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Internal</h5>
+                                <p class="card-text">
+                                    Divisi ini berperan untuk mengikuti kegiatan kampus dan juga menjalin hubungan antar pengurus HMTT dengan seluruh anggota HMTT, dan bertugas untuk membuat acara/kegiatan Have fun di lingkungan kampus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Eksternal</h5>
+                                <p class="card-text">
+                                    Divisi berperan sebagai wadah untuk pengurus mapun anggota HMTT untuk mengikuti kegiatan atau forum diluar kampus bersama dengan kampus-kampus lain seperti FKHMEI atau yang lain dan juga berperan untuk menjalin silaturahmi atau kerja sama antar kampus lain.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row pt-4 gx-4 gy-4">
+                    <h3 class="h4 text-muted mb-4 mt-5">Departemen Keilmuan</h3>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Akademik</h5>
+                                <p class="card-text">
+                                    Divisi ini bertanggung jawab untuk meningkatkan pengetahuan mahasiswa/i Teknik Telekomunikasi dalam bidang akademik dan membantu prodi dalam kegiatan akademik.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Non Akademik</h5>
+                                <p class="card-text">
+                                    Divisi ini melakukan kegiatan diluar dari akademik yang dipelajari di Prodi Teknik Telekomunikasi seperti pembuatan alat bersama, pengenalan website, ataupun yang lain.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row pt-4 gx-4 gy-4">
+                    <h3 class="h4 text-muted mb-4 mt-5">Departemen Pengembangan Manusia</h3>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Pengembangan Minat dan Bakat</h5>
+                                <p class="card-text">
+                                    Divisi ini berperan untuk mencari lomba atau kompetisi baik dalam bidang akademik, non akademik, olahraga, e-sport, dan lainnya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card crop-img">
+                            <img
+                                src="img/Foto Bersama.jpg"
+                                class="card-img-top"
+                                width="300"
+                                height="300"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Divisi Pengembangan Sumber Daya Manusia</h5>
+                                <p class="card-text">
+                                    Divisi ini berperan untuk dalam bidang pendataan serta pengelola sumber daya mahasiswa yang mempunyai tujuan utama untuk mencari, mengembangkan kemampuan softskill dan keilmuan pada semua individu khususnya Mahasiswa Teknik Telekomunikasi, dan menambah wawasan seputar dunia telekomunikasi dan perkembangan industri digital.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!--My javascript-->
-        <script src="script.js"></script>
+        
+        
+        
+        
+        <!-- Badan Pengurus Himpunan -->
+        <div class="container-fluid pt-5 pb-5 bg-light">
+            <div class="container text-center">
+                <h2 class="display-3" id="pengurus"><strong>Badan Pengurus Himpunan</strong></h2>
+
+                <h3 class="h4 text-muted mb-4 mt-5">Ketua Himpunan</h3>
+                <div class="row pt-4 gx-4 gy-4 justify-content-center">
+                    <div class="col-md-4 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Fani Fadilah</h4>
+                        <p>Ketua Himpunan</p>
+                    </div>
+                </div>
+        
+                <h3 class="h4 text-muted mb-4 mt-5">Wakil Ketua Himpunan</h3>
+                <div class="row pt-4 gx-4 gy-4 justify-content-center">
+                    <div class="col-md-4 text-center tim">
+                        <img
+                        src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Nuryunita Fauziah Arrahmah</h4>
+                        <p>Wakil Ketua Himpunan</p>
+                    </div>
+                </div>
+
+                <h3 class="h4 text-muted mb-4 mt-5">Sekretaris dan Bendahara</h3>
+                <div class="row pt-4 gx-4 gy-4 justify-content-center">
+                    <div class="col-md-4 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Atikah</h4>
+                        <p>Sekretaris</p>
+                    </div>
+                    
+                    <div class="col-md-4 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Vita</h4>
+                        <p>Bendahara</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid pt-5 pb-5 bg-light">
+            <div class="container text-center">
+                <h3 class="h4 text-muted mb-4 mt-5">Ketua Departemen</h3>
+                
+                <div class="row pt-4 gx-4 gy-4 justify-content-center">
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Nazwa Nabillah</h4>
+                        <p>Ketua Departemen Medkominfo</p>
+                    </div>
+                    
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Natalia</h4>
+                        <p>Ketua Departemen Hubungan Masyarakat</p>
+                    </div>
+                    
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Dewi Ubudiah</h4>
+                        <p>Ketua Departemen Keilmuan</p>
+                    </div>
+                    
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Fauziah Ramadhani</h4>
+                        <p>Ketua Departemen Pengembangan Manusia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid pt-5 pb-5 bg-light">
+            <div class="container text-center">
+                <h3 class="h4 text-muted mb-4 mt-5">Ketua Divisi </h3>
+                
+                <div class="row pt-4 gx-4 gy-4 justify-content-center">
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Indira Nesia Inda</h4>
+                        <p>Ketua Divisi Media Development</p>
+                    </div>
+                    
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Dias Aditya</h4>
+                        <p>Ketua Divisi Creative Information</p>
+                    </div>
+                    
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Eka Tiara Rosalya</h4>
+                        <p>Ketua Divisi Kewirausahaan</p>
+                    </div>
+                </div>
+        
+                <div class="row pt-4 gx-4 gy-4 justify-content-center">
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Ilyas Ibnu S.</h4>
+                        <p>Ketua Divisi Humas Internal</p>
+                    </div>
+                    
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Lutfi Hasan Mubarok</h4>
+                        <p>Ketua Divisi Humas Eksternal</p>
+                    </div>
+                </div>
+        
+                <div class="row pt-4 gx-4 gy-4 justify-content-center">
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Ariq Falah Hadi</h4>
+                        <p>Ketua Divisi Akademik</p>
+                    </div>
+                    
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>M. Agung Pratama</h4>
+                        <p>Ketua Divisi Non Akademik</p>
+                    </div>
+                </div>
+        
+                <div class="row pt-4 gx-4 gy-4 justify-content-center">
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>M. Arjuna Herdiawan</h4>
+                        <p>Ketua Divisi Pengembangan Minat dan Bakat</p>
+                    </div>
+                    
+                    <div class="col-md-3 text-center tim">
+                        <img
+                            src="img/logo.png"
+                            class="rounded-circle mb-3"
+                        />
+                        <h4>Angga Setiawan</h4>
+                        <p>Ketua Divisi Pengembangan Sumber Daya Manusia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- kontak -->
+        <div class="container-fluid pt-4 pb-5 kontak">
+            <div class="container">
+                <h2 class="display-3 text-center" id="kontak"><strong>More Information</strong></h2>
+                <div class="row pb-3">
+                    <div class="col-md-6 text-center">
+                        <h4>Address</h4>
+                            <a>Sekretariat : Kampus A Telkom University Kampus Jakarta
+                                <br />
+                            </a>
+                            <a>Jl. Daan Mogot KM.11 Cengkareng Jakarta 11710 Jakarta Barat
+                                <br />
+                            </a>
+                            <a>Telp.(021) 5451597-5451697 Fax(021)545149</a>
+                    </div>
+                    <div class="col-md-6 mt-2 text-center">
+                        <h4>Follow Us</h4>
+                        <div class="social-link mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                            <span class="ml-2">hmtt_tuj</span>
+                        </div>
+                        <div class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                            </svg>
+                            <span class="ml-2">hmtt_tuj</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container text-center pt-5 pb-5">
+            <img src="img/logo.png" alt="Logo" width="150" class="mb-3">
+            <p>Himpunan Mahasiswa Teknik Telekomunikasi Telkom University Jakarta</p>
+        </div>
+        
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"
+        ></script>
     </body>
-
 </html>
-
-<div class="container-fluid pt-5 pb-5 bg-light">
-    <div class="container text-center">
-        <h2 class="display-3" id="program-kerja"><strong>Program Kerja</strong></h2>
-
-        <!-- Departemen Medkominfo -->
-        <h3 class="h4 text-muted mb-4 mt-5">Departemen Medkominfo</h3>
-        <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program1.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 1: Workshop Teknologi</h5>
-                        <p class="card-text">
-                            Mengadakan workshop untuk meningkatkan keterampilan mahasiswa dalam bidang teknologi terbaru.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program2.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 2: Seminar Kepemimpinan</h5>
-                        <p class="card-text">
-                            Seminar yang bertujuan untuk mengembangkan keterampilan kepemimpinan mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program3.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 3: Kompetisi Inovasi</h5>
-                        <p class="card-text">
-                            Kompetisi untuk mendorong mahasiswa menciptakan inovasi dalam bidang teknik telekomunikasi.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program4.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 4: Pengabdian Masyarakat</h5>
-                        <p class="card-text">
-                            Kegiatan sosial yang bertujuan untuk memberikan kontribusi nyata kepada masyarakat sekitar.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Departemen Hubungan Masyarakat -->
-        <h3 class="h4 text-muted mb-4 mt-5">Departemen Hubungan Masyarakat</h3>
-        <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program5.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 5: Pelatihan Soft Skills</h5>
-                        <p class="card-text">
-                            Pelatihan untuk meningkatkan kemampuan soft skills mahasiswa seperti komunikasi dan kerjasama tim.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program6.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 6: Diskusi Panel Industri</h5>
-                        <p class="card-text">
-                            Diskusi dengan para ahli industri untuk memberikan wawasan tentang perkembangan terbaru dalam industri telekomunikasi.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program7.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 7: Kunjungan Industri</h5>
-                        <p class="card-text">
-                            Mengunjungi perusahaan-perusahaan telekomunikasi untuk memahami proses kerja di industri.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program8.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 8: Kompetisi Esports</h5>
-                        <p class="card-text">
-                            Turnamen esports untuk mengembangkan minat dan bakat mahasiswa dalam bidang game kompetitif.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Departemen Keilmuan -->
-        <h3 class="h4 text-muted mb-4 mt-5">Departemen Keilmuan</h3>
-        <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program9.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 9: Training Entrepreneurship</h5>
-                        <p class="card-text">
-                            Pelatihan kewirausahaan untuk membekali mahasiswa dengan keterampilan dalam memulai dan mengelola bisnis.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program10.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 10: Lomba Karya Tulis Ilmiah</h5>
-                        <p class="card-text">
-                            Kompetisi menulis karya ilmiah untuk meningkatkan keterampilan menulis dan penelitian mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program11.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 11: Hackathon</h5>
-                        <p class="card-text">
-                            Hackathon untuk mengembangkan keterampilan pemrograman dan inovasi mahasiswa dalam menciptakan solusi teknologi.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program12.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 12: Seminar Kewirausahaan</h5>
-                        <p class="card-text">
-                            Seminar untuk memberikan wawasan dan inspirasi kepada mahasiswa dalam bidang kewirausahaan.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Departemen Pengembangan Manusia -->
-        <h3 class="h4 text-muted mb-4 mt-5">Departemen Pengembangan Manusia</h3>
-        <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program13.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 13: Pelatihan Kepemimpinan</h5>
-                        <p class="card-text">
-                            Pelatihan untuk mengembangkan keterampilan kepemimpinan dan manajemen mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program14.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 14: Kompetisi Olahraga</h5>
-                        <p class="card-text">
-                            Kompetisi olahraga untuk meningkatkan kesehatan dan kebugaran mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program15.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 15: Lomba Debat</h5>
-                        <p class="card-text">
-                            Lomba debat untuk mengasah keterampilan berpikir kritis dan berargumentasi mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card crop-img">
-                    <img src="img/program16.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 16: Workshop Pengembangan Diri</h5>
-                        <p class="card-text">
-                            Workshop yang bertujuan untuk mengembangkan potensi diri dan kepercayaan diri mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Batas -->
-
-<div class="container-fluid pt-5 pb-5 bg-light">
-    <div class="container text-center">
-        <h2 class="display-3" id="program-kerja"><strong>Program Kerja</strong></h2>
-
-        <!-- Departemen Medkominfo -->
-        <h3 class="h4 text-muted mb-4 mt-5">Departemen Medkominfo</h3>
-        <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program1.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 1: Workshop Teknologi</h5>
-                        <p class="card-text">
-                            Mengadakan workshop untuk meningkatkan keterampilan mahasiswa dalam bidang teknologi terbaru.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program2.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 2: Seminar Kepemimpinan</h5>
-                        <p class="card-text">
-                            Seminar yang bertujuan untuk mengembangkan keterampilan kepemimpinan mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program3.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 3: Kompetisi Inovasi</h5>
-                        <p class="card-text">
-                            Kompetisi untuk mendorong mahasiswa menciptakan inovasi dalam bidang teknik telekomunikasi.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program4.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 4: Pengabdian Masyarakat</h5>
-                        <p class="card-text">
-                            Kegiatan sosial yang bertujuan untuk memberikan kontribusi nyata kepada masyarakat sekitar.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Departemen Hubungan Masyarakat -->
-        <h3 class="h4 text-muted mb-4 mt-5">Departemen Hubungan Masyarakat</h3>
-        <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program5.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 5: Pelatihan Soft Skills</h5>
-                        <p class="card-text">
-                            Pelatihan untuk meningkatkan kemampuan soft skills mahasiswa seperti komunikasi dan kerjasama tim.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program6.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 6: Diskusi Panel Industri</h5>
-                        <p class="card-text">
-                            Diskusi dengan para ahli industri untuk memberikan wawasan tentang perkembangan terbaru dalam industri telekomunikasi.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program7.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 7: Kunjungan Industri</h5>
-                        <p class="card-text">
-                            Mengunjungi perusahaan-perusahaan telekomunikasi untuk memahami proses kerja di industri.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program8.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 8: Kompetisi Esports</h5>
-                        <p class="card-text">
-                            Turnamen esports untuk mengembangkan minat dan bakat mahasiswa dalam bidang game kompetitif.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Departemen Keilmuan -->
-        <h3 class="h4 text-muted mb-4 mt-5">Departemen Keilmuan</h3>
-        <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program9.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 9: Training Entrepreneurship</h5>
-                        <p class="card-text">
-                            Pelatihan kewirausahaan untuk membekali mahasiswa dengan keterampilan dalam memulai dan mengelola bisnis.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program10.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 10: Lomba Karya Tulis Ilmiah</h5>
-                        <p class="card-text">
-                            Kompetisi menulis karya ilmiah untuk meningkatkan keterampilan menulis dan penelitian mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program11.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 11: Hackathon</h5>
-                        <p class="card-text">
-                            Hackathon untuk mengembangkan keterampilan pemrograman dan inovasi mahasiswa dalam menciptakan solusi teknologi.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program12.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 12: Seminar Kewirausahaan</h5>
-                        <p class="card-text">
-                            Seminar untuk memberikan wawasan dan inspirasi kepada mahasiswa dalam bidang kewirausahaan.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Departemen Pengembangan Manusia -->
-        <h3 class="h4 text-muted mb-4 mt-5">Departemen Pengembangan Manusia</h3>
-        <div class="row pt-4 gx-4 gy-4">
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program13.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 13: Pelatihan Kepemimpinan</h5>
-                        <p class="card-text">
-                            Pelatihan untuk mengembangkan keterampilan kepemimpinan dan manajemen mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program14.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 14: Kompetisi Olahraga</h5>
-                        <p class="card-text">
-                            Kompetisi olahraga untuk meningkatkan kesehatan dan kebugaran mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program15.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 15: Lomba Debat</h5>
-                        <p class="card-text">
-                            Lomba debat untuk mengasah keterampilan berpikir kritis dan berargumentasi mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card crop-img">
-                    <img src="img/program16.jpg" class="card-img-top" width="300" height="300"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Program 16: Workshop Pengembangan Diri</h5>
-                        <p class="card-text">
-                            Workshop yang bertujuan untuk mengembangkan potensi diri dan kepercayaan diri mahasiswa.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
