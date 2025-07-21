@@ -1,14 +1,23 @@
 
 .banner {
-    background: url('/img/Foto\ Bersama.jpg')
-        no-repeat center center;
-    background-size: flex;
-    padding-top: 25%;
-    padding-bottom: 25%;
+    position: relative;
+    background-image: url('/img/Foto Bersama.png') ;
+    background-size: cover;
+    padding-top: 56.25%;
     color: #fff;
 }
 
-/* transisi */
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.custom-brand {
+    font-style: italic;
+    font-weight: bold;
+}
 
 .container-fluid {
     padding-top: auto;
@@ -36,6 +45,7 @@
 }
 .crop-img {
     transition: transform 0.5s, box-shadow 0.5s;
+    object-fit: cover; /* Memastikan gambar terpotong dengan baik */
 }
 .crop-img:hover {
     transform: scale(1.1);
@@ -71,6 +81,15 @@ p:hover {
 }
 .tim:hover {
     transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.profil-highlight {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profil-highlight:hover {
+    transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
@@ -143,7 +162,8 @@ a.social {
     margin-bottom: 1rem;
 }
 
-/* Media Query for Mobile Devices */
+
+/* Mobile Devices */
 @media (max-width: 480px) {
     body {
         font-size: 55%;
@@ -151,14 +171,14 @@ a.social {
 }
 
 
-/* Media Query for Tablets Ipads portrait mode */
+/* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
         font-size: 62.5%;
     }
 }
 
-/* Media Query for Laptops and Desktops */
+/* Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
     
 }
